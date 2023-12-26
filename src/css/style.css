@@ -14,7 +14,7 @@ body{
 }
 .containt-left{
     color: #fff;
-   width: 400px;
+    width: 400px;
 }
 .containt-left .title{
     font-size: 20px;
@@ -71,6 +71,8 @@ body{
    opacity: 0.9;
    cursor: pointer;
 }
+
+/* Campos para manipular no JS */
 .campo-requered{
     border: 1px solid red;
 }

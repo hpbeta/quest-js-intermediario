@@ -1,0 +1,20 @@
+@media(max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+.containt-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.containt-right{
+    width:300px ;
+}
+.containt-right .mensagem{
+    width: 100%;
+}
+}
