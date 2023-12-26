@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/bg-repeat.jpg) center center;
+     background-size: contain; 
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-left: 200px;
+
+    
+}
+.containt-left{
+    color: #fff;
+   width: 400px;
+}
+.containt-left .title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+.containt-left .paragraph{
+    line-height: 20px;
+    font-size: 15px;
+    width: 300px;
+}
+.containt-right{
+    background-color: #fff;
+    padding: 32px;
+    width: 400px;
+   
+}
+.containt-right input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.containt-right .campo-obrigatorio{
+    display: block;
+    font-size: 10px;
+    margin-left: 10px;
+    color:  #F52E2E;
+}
+.containt-right .mensagem{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    resize: none;
+}
+.containt-right .campos-obrigatorios{
+   font-weight: bold;
+   font-size: 16px;
+}
+.containt-right .btn{
+    background-color: #3CCC87;
+    border: none;
+    padding: 17px;
+    margin-top: 10px;
+    color: #fff;
+    
+}
+.containt-right .btn:hover{
+   opacity: 0.9;
+   cursor: pointer;
+}
+.campo-requered{
+    border: 1px solid red;
+}
+.containt-right .campo-obrigatorio.ativo{
+    display: none;
+}
+
+.campo-preenchido{
+    border: 1px solid #008000;
+}
+
+
+
+
+
