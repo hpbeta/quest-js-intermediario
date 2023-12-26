@@ -8,6 +8,7 @@ btn.addEventListener('click', (e) => {
         if (input.value === "") {
             input.classList.add('campo-requered')
             input.nextElementSibling.classList.remove('ativo')
+            input.classList.remove('campo-preenchido')
         } else {
             input.classList.remove('campo-requered')
             input.nextElementSibling.classList.add('ativo')

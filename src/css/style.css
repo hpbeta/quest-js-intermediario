@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
-    margin-left: 200px;
+    justify-content: center;
 
     
 }
@@ -38,12 +38,17 @@ body{
     border-radius: 5px;
     margin-top: 10px;
 }
-.containt-right .campo-obrigatorio{
+
+.input-text{
+    border: 1px solid #000;
+    
+}
+ .containt-right .campo-obrigatorio{
     display: block;
     font-size: 10px;
     margin-left: 10px;
     color:  #F52E2E;
-}
+} 
 .containt-right .mensagem{
     border-radius: 5px;
     padding: 10px;
